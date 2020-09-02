@@ -1,0 +1,19 @@
+
+prime = False
+while prime == False:
+        prime = int (input ("Enter your number: "))
+
+        if prime == 1 or prime == 2 or prime == 3 or prime == 5 or prime == 7:
+            print ("Yes")
+        elif prime % 2 == 0:
+            print ("No")
+        elif prime % 3 == 0:
+            print ("No")
+        elif prime % 5 == 0:
+            print ("No")
+        elif prime % 7 == 0:
+            print ("No")
+        else:
+             print ("Yes")
+        prime = False
+    

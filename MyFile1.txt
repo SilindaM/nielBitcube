@@ -1,0 +1,19 @@
+back = False
+word = []
+
+while back == False:
+      back_to_back = input ("Enter your word: ")
+      back_to_back = list (back_to_back)
+      word = list (back_to_back)
+     
+      for i in range (len(back_to_back)//2):
+           
+           back_to_back [i], back_to_back [len(back_to_back) -i -1] = back_to_back [len(back_to_back) -i -1], back_to_back [i]
+     
+      if back_to_back == word:
+                      print ("Yes")
+      else:
+                      print ("No")
+            
+
+    
